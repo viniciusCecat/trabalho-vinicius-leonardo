@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site da Dupla de Engenharia de Software</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero-header">
+      <div class="brand-mark" aria-label="Logo da dupla">VL</div>
+      <div>
+        <p class="eyebrow">Projeto acadêmico</p>
+        <h1>Site da Dupla de Engenharia de Software</h1>
+        <p class="hero-text">
+          Este site foi desenvolvido em dupla como atividade prática da disciplina,
+          com foco na organização de conteúdo usando HTML semântico e Flexbox.
+        </p>
+      </div>
+    </header>
+
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#estudos">Estudos</a>
+      <a href="#artigo">Artigo</a>
+      <a href="#extras">Informações</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="content-layout">
+      <main>
+        <section id="sobre" class="card intro-section">
+          <p class="section-label">Seção 1</p>
+          <h2>Sobre a dupla</h2>
+          <p>
+            Somos Vinicius Cecatto e Leonardo Scheffer Nunes, estudantes de Engenharia
+            de Software. Desenvolvemos esta página com o objetivo de aplicar, na
+            prática, conceitos de estrutura semântica e estilização com CSS.
+          </p>
+        </section>
+
+        <section id="estudos" class="card">
+          <p class="section-label">Seção 2</p>
+          <h2>Estudos e interesses</h2>
+          <div class="skills-row">
+            <div class="skill-box">
+              <h3>Programação</h3>
+              <p>Buscamos ampliar nosso conhecimento em lógica, desenvolvimento de sistemas e boas práticas de programação.</p>
+            </div>
+            <div class="skill-box">
+              <h3>Front-end</h3>
+              <p>Estamos estudando HTML e CSS para construir páginas organizadas, semânticas e com melhor apresentação visual.</p>
+            </div>
+            <div class="skill-box">
+              <h3>Faculdade</h3>
+              <p>Ao longo da graduação, buscamos desenvolver uma base técnica sólida para atuar na área de tecnologia.</p>
+            </div>
+          </div>
+        </section>
+
+        <article id="artigo" class="feature-article">
+          <p class="section-label">Artigo em destaque</p>
+          <h2>Aprendizado com este trabalho</h2>
+          <p>
+            Durante o desenvolvimento deste site, colocamos em prática a criação de
+            uma estrutura com header, nav, main, section, article, aside e footer,
+            além da organização dos elementos com Flexbox.
+          </p>
+        </article>
+      </main>
+
+      <aside id="extras" class="sidebar">
+        <div class="aside-card">
+          <p class="section-label">Informações complementares</p>
+          <h2>Resumo</h2>
+          <ul>
+            <li>Layout simples, limpo e organizado</li>
+            <li>Aplicação de HTML semântico</li>
+            <li>Organização visual com Flexbox</li>
+          </ul>
+        </div>
+
+        <div id="contato" class="aside-card">
+          <p class="section-label">Contato</p>
+          <h2>Contato da dupla</h2>
+          <p>Entre em contato com a dupla pelos e-mails institucionais abaixo.</p>
+          <ul>
+            <li>Vinicius Cecatto: vcecatto@minha.fag.edu.br</li>
+            <li>Leonardo Scheffer Nunes: lsnunes1@minha.fag.edu.br</li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <p>Alunos: Vinicius Cecatto e Leonardo Scheffer Nunes</p>
+      <p>Trabalho avaliativo do trimestre | HTML semântico e Flexbox</p>
+    </footer>
+  </div>
+</body>
+</html>
