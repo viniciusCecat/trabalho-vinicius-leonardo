@@ -3,5 +3,5 @@ Projeto desenvolvido em dupla para a disciplina, utilizando HTML semântico e CS
 
 Integrantes:
 
-Vinicius Cecatto
+Vinicius Cecatto,
 Leonardo Scheffer Nunes
